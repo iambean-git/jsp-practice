@@ -11,7 +11,7 @@ public int getAge(int year, int birthYear){
 public String getGangi(int num){
 	
 	//방법1
-	String[] allGangi = new String[]{"원숭이띠", "닭띠", "개띠", "돼지띠","쥐띠", "소띠", "범띠", "토끼띠", "용띠", "뱀띠", "말띠", "양띠"};
+	String[] allGangi = new String[]{"원숭이띠", "닭띠", "개띠", "돼지띠", "쥐띠", "소띠", "범띠", "토끼띠", "용띠", "뱀띠", "말띠", "양띠"};
 	String myGangi;
 	
 	myGangi = allGangi[num%12];
