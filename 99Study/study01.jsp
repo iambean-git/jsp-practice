@@ -18,7 +18,7 @@ public String getGangi(int num){
 	
 	return myGangi;
 	
-//방법2. switch 사용하는 방법
+	//방법2. switch 사용하는 방법
 /*	
 	switch(num%12){
 	case 1 : 
